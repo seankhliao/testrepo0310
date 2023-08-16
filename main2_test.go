@@ -1,7 +1,7 @@
 package hello_test
 
-import "fmt"
+import hello "go.seankhliao.com/testrepo0310/v2"
 
-func Example_DEF() {
-	fmt.Println("hello world")
+func ExampleDEF() {
+	hello.DEF()
 }
